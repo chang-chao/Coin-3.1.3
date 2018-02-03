@@ -1,15 +1,14 @@
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "coin3", "coin3.vcproj", "{3FACC8B4-83CA-47E7-9A6B-0C179012DE60}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "coin3", "coin3.vcxproj", "{3FACC8B4-83CA-47E7-9A6B-0C179012DE60}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "coin3_install", "coin3_install.vcproj", "{C2983960-5E74-4CBC-8816-F7EFBB052701}"
-	ProjectSection(ProjectDependencies) = postProject
-		{3FACC8B4-83CA-47E7-9A6B-0C179012DE60} = {3FACC8B4-83CA-47E7-9A6B-0C179012DE60}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "coin3_install", "coin3_install.vcxproj", "{C2983960-5E74-4CBC-8816-F7EFBB052701}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "coin3_uninstall", "coin3_uninstall.vcproj", "{D7690531-18BF-4396-A7F9-26D7AAF56140}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "coin3_uninstall", "coin3_uninstall.vcxproj", "{D7690531-18BF-4396-A7F9-26D7AAF56140}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "coin3_docs", "coin3_docs.vcproj", "{DCDEB8E8-4B5A-41A5-9FD0-82BC6D3E5508}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "coin3_docs", "coin3_docs.vcxproj", "{DCDEB8E8-4B5A-41A5-9FD0-82BC6D3E5508}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,5 +53,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {687F5CE6-4BD7-4ADE-8342-39A9148C291D}
 	EndGlobalSection
 EndGlobal
