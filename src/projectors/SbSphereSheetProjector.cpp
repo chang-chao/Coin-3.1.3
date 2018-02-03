@@ -180,7 +180,7 @@ SbSphereSheetProjector::project(const SbVec2f & point)
 
   // distance from plane hit point to plane center in the projector
   planardist = (planehit - this->planePoint).length();
-  // let sphere and hyperbolic sheet meet at 45°
+  // let sphere and hyperbolic sheet meet at 45
   meetdist =  this->sphere.getRadius() * (float) cos(M_PI / 4.0);
 
   if (planardist < meetdist) {
