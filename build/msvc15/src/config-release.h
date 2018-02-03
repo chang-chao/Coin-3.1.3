@@ -6,7 +6,7 @@
 #error this is a private header file
 #endif
 
-#include <unconfig.h>
+//#include <unconfig.h>
 #include <setup.h>
 
 
@@ -32,7 +32,7 @@
 #define COIN_INT64_T long long
 
 /* define this to a type of the indicated bitwidth */
-#define COIN_INT8_T char
+#define COIN_INT8_T signed char
 
 /* define this to a type of the indicated bitwidth */
 #define COIN_INTPTR_T intptr_t

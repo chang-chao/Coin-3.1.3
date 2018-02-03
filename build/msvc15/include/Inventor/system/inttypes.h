@@ -80,6 +80,8 @@
 /* If the system defines any of the types "on it's own", the
    respective #define will be set below. */
 /* #undef HAVE_INT8_T */
+//#define HAVE_INT8_T 1
+
 /* #undef HAVE_UINT8_T */
 /* #undef HAVE_INT16_T */
 /* #undef HAVE_UINT16_T */
@@ -92,7 +94,7 @@
 
 /* The type which the configure script found to match the given
    bitwidth. */
-#define COIN_INT8_T char
+#define COIN_INT8_T signed char
 #define COIN_UINT8_T unsigned char
 #define COIN_INT16_T short
 #define COIN_UINT16_T unsigned short
@@ -125,10 +127,10 @@
 #endif /* HAVE_STDDEF_H */
 
 
-#if !defined(HAVE_INT8_T) && defined(COIN_INT8_T)
+//#if !defined(HAVE_INT8_T) && defined(COIN_INT8_T)
 typedef COIN_INT8_T int8_t;
 #define HAVE_INT8_T 1
-#endif /* !HAVE_INT8_T && COIN_INT8_T */
+//#endif /* !HAVE_INT8_T && COIN_INT8_T */
 
 #if !defined(HAVE_UINT8_T) && defined(COIN_UINT8_T)
 typedef COIN_UINT8_T uint8_t;

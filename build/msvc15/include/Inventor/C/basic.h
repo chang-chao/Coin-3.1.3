@@ -206,7 +206,7 @@ static const SbBool TRUE = 1;
    until C99, so we don't want to use them internally, for portability
    reasons. */
 #ifdef COIN_INTERNAL
-#include <Inventor/C/base/math-undefs.h>
+//#include <Inventor/C/base/math-undefs.h>
 #endif /* COIN_INTERNAL */
 
 /* *********************************************************************** */
