@@ -69,32 +69,32 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL (Debug)|Win32'">
     <OutDir>.\Debug\</OutDir>
     <IntDir>.\Debug\</IntDir>
-    <NMakeBuildCommandLine>..\misc\install-sdk.bat dll debug msvc15 coin3</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>..\misc\install-sdk.bat dll debug msvc15 coin3 </NMakeReBuildCommandLine>
+    <NMakeBuildCommandLine>..\misc\install-sdk.bat dll debug msvc14 coin3</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\misc\install-sdk.bat dll debug msvc14 coin3 </NMakeReBuildCommandLine>
     <NMakeCleanCommandLine />
     <NMakeOutput>coin3_install.exe</NMakeOutput>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LIB (Debug)|Win32'">
     <OutDir>.\StaticDebug\</OutDir>
     <IntDir>.\StaticDebug\</IntDir>
-    <NMakeBuildCommandLine>..\misc\install-sdk.bat lib debug msvc15 coin3</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>..\misc\install-sdk.bat lib debug msvc15 coin3 </NMakeReBuildCommandLine>
+    <NMakeBuildCommandLine>..\misc\install-sdk.bat lib debug msvc14 coin3</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\misc\install-sdk.bat lib debug msvc14 coin3 </NMakeReBuildCommandLine>
     <NMakeCleanCommandLine />
     <NMakeOutput>coin3_install.exe</NMakeOutput>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL (Release)|Win32'">
     <OutDir>.\Release\</OutDir>
     <IntDir>.\Release\</IntDir>
-    <NMakeBuildCommandLine>..\misc\install-sdk.bat dll release msvc15 coin3</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>..\misc\install-sdk.bat dll release msvc15 coin3 </NMakeReBuildCommandLine>
+    <NMakeBuildCommandLine>..\misc\install-sdk.bat dll release msvc14 coin3</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\misc\install-sdk.bat dll release msvc14 coin3 </NMakeReBuildCommandLine>
     <NMakeCleanCommandLine />
     <NMakeOutput>coin3_install.exe</NMakeOutput>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LIB (Release)|Win32'">
     <OutDir>.\StaticRelease\</OutDir>
     <IntDir>.\StaticRelease\</IntDir>
-    <NMakeBuildCommandLine>..\misc\install-sdk.bat lib release msvc15 coin3</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>..\misc\install-sdk.bat lib release msvc15 coin3 </NMakeReBuildCommandLine>
+    <NMakeBuildCommandLine>..\misc\install-sdk.bat lib release msvc14 coin3</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\misc\install-sdk.bat lib release msvc14 coin3 </NMakeReBuildCommandLine>
     <NMakeCleanCommandLine />
     <NMakeOutput>coin3_install.exe</NMakeOutput>
   </PropertyGroup>
