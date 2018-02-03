@@ -32,6 +32,11 @@
 
    20050613 mortene. */
 
+#if (_MSC_VER >= 1900)
+#define _CSTDLIB_
+#endif
+
+
 #include "fonts/freetype.h"
 
 #ifdef HAVE_CONFIG_H
